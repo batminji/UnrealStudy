@@ -1,7 +1,3 @@
-# Created by https://www.toptal.com/developers/gitignore/api/unrealengine
-# Edit at https://www.toptal.com/developers/gitignore?templates=unrealengine
-
-### UnrealEngine ###
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -44,6 +40,7 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+.vsconfig
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -51,7 +48,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
+Plugins/**/Binaries/*
 
 # Builds
 Build/*
@@ -72,25 +69,7 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/*/Intermediate/*
+Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
-### UnrealEngine Patch ###
-# Don't ignore icon and splash images for mobile app
-!Build/IOS/Resources/
-Build/IOS/Resources/*
-!Build/IOS/Resources/Graphics/
-Build/IOS/Resources/Graphics/*
-!Build/IOS/Resources/Graphics/*.png
-!Build/Android/res/
-Build/Android/res/*
-!Build/Android/res/*/
-Build/Android/res/*/*
-!Build/Android/res/*/*.png
-# Ignore plugins binaries on deep subfolders
-Plugins/**/Binaries/*
-Plugins/**/Intermediate/*
-
-# End of https://www.toptal.com/developers/gitignore/api/unrealengine
